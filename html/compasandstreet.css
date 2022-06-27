@@ -1,0 +1,39 @@
+@font-face {
+	font-family: new_font;
+	src: url('./BoxedRound.ttf');
+}
+
+@font-face {
+	font-family: font3;
+	src: url('https://images.forasterosroleplay.es/fonts/fonts33.otf');
+}
+
+.streetname{
+    position: relative;
+    top: -0.050vw;
+    left: 45%;
+    padding: 0.4vw;
+    background-color: rgba(255, 0, 0, 0.703);
+    box-shadow: .1vw .1vw rgb(0, 0, 0);
+    border-radius: .3vw;
+    border: 0.1vw solid rgb(0, 0, 0);
+    font-family: BoxedRound;
+    font-size: 0.69vw;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 1px black,
+        0 0 10px black, 0 0 3px black,
+        0 0 5px black 0 0 12px black,
+        0 0 10px black;
+    }
+    to {
+        text-shadow: 0 0 1px white,
+        0 0 10px white, 0 0 3px white,
+        0 0 5px white, 0 0 12px white,
+        0 0 10px white;
+    }
+}
