@@ -17,7 +17,7 @@
     box-shadow: .1vw .1vw rgb(0, 0, 0);
     border-radius: .3vw;
     border: 0.1vw solid rgb(0, 0, 0);
-    font-family: BoxedRound;
+    font-family: new_font;
     font-size: 0.69vw;
     color: rgb(255, 255, 255);
     display: inline-flex;
